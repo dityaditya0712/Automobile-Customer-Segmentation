@@ -30,7 +30,7 @@ var_1_dict = {"Cat_1": 0, "Cat_2": 1, "Cat_3": 2, "Cat_4": 3, "Cat_5": 4, "Cat_6
 segmentation_dict = {"A": 0, "B": 1, "C": 2, "D": 3}
 
 # Load the model from the pickle file
-model_path = "C:/Users/ditya/OneDrive/Desktop/Data Science/Project/Automobile Multiclass Classificaton/model/gbm_model.pkl"
+model_path = "model/gbm_model.pkl"
 if os.path.exists(model_path):
     model = joblib.load(model_path)
 else:
